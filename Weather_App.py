@@ -9,9 +9,9 @@ root = Tk()
 root.geometry("400x400")  # size of the window by default
 root.resizable(0, 0)  # to make the window size fixed
 # title of our window
-root.title("Weather App - AskPython.com")
+root.title("Weather App")
 
-# ----------------------Functions to fetch and display weather info
+# Functions to fetch and display weather info
 city_value = StringVar()
 
 
@@ -25,7 +25,7 @@ city_value = StringVar()
 
 def showWeather():
     # Enter you api key, copies from the OpenWeatherMap dashboard
-    api_key = "a0bd5fb75d027845689e7dff8ffdf411"  # sample API
+    api_key = "You_api_from_openweather_site"  # sample API
 
     # Get city name from user from the input field (later in the code)
     city_name = city_value.get()
